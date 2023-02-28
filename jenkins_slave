@@ -2,6 +2,7 @@ pipeline {
     agent any
     parameters {
         string(name: 'NAME', defaultValue: 'Tuchsanai')
+        string(name: 'NAME', defaultValue: 'Tuchsanai')
     }
     stages {
         stage('Example') {

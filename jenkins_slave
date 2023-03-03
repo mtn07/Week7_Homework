@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     parameters {
-        string(name: 'NAME', defaultValue: 'Alice', description: 'The name of the person to greet')
+        string(name: 'NAME', defaultValue: 'Thanit', description: 'The name of the person to greet')
         string(name: 'AGE', defaultValue: '21', description: 'The age of the person to greet')
     }
 

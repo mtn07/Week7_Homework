@@ -14,7 +14,7 @@ pipeline {
                 echo 'Start Trigger to send name and age to slave'
                 script {
                     try{
-                        def data = readJSON file: "${env.WORKSPACE}/data.json"
+                        def data = readJSON file: "./data.json"
                         name = "${data.name}"
                         age = "${data.age}"
                         echo 'Start Trigger to send name and age to slave try'
